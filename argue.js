@@ -1,4 +1,4 @@
-
+// Prompt 1
 const header = document.getElementById("text");
 document.getElementById("first").addEventListener("click", (e) => {
     document.getElementById("first").textContent = "I'm right!";
