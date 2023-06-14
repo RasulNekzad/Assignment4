@@ -1,0 +1,31 @@
+.btn-rounded{
+    border-radius: 12px;
+}
+
+.btn{
+    margin-left: 50px;
+    width: 50%;
+    height: 50%;
+    font-family:Georgia; 
+    font-size: 40px;
+    font-weight:600;
+    color:rgb(238, 231, 231);
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-elt{
+    width: 80%; 
+    height:80%; 
+    font-family:Georgia; 
+    font-weight:600; 
+    font-size:64px; 
+    color:rgb(121, 26, 26); 
+    background-color: rgb(100, 100, 100);
+    box-shadow:8px rgba(100, 100, 100, 0.326);
+}
