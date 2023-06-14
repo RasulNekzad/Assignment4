@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover</title>
+    <style>
+        .large-element {
+            width: 750px;
+            height: 500px;
+            background-color: blue;
+        }
+    </style>
+    <style>
+        .centered {
+            text-align: center;
+        }
+    </style>
+    <script>
+        function hoverAlert() {
+            alert("Hey, I told you not to hover over me!");
+        }
+    </script>
+</head>
+<body>
+    <div class="large-element centered" onmouseover="hoverAlert()">
+        <h1 class="centered" style="color: white">↓↓↓ Don't hover over me ↓↓↓</h1>
+    </div>
+</body>
+</html>
