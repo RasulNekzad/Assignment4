@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Two Buttons</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
     
 </head>
 <body>
-    <h1 id="text"> Who's right?</h1>
-    <button id="first"> 1 </button>
-    </button>
-    <button id="second"> 2 </button>
+    <div class="container centered">
+        <h1 id="text" style="font-family:Georgia; font-weight:bolder; margin-bottom:32px;"> Who's right?</h1>
+        <div class="">
+        <button class="btn btn-rounded" id="first" style="background-color: rgb(174, 51, 51);"> 1 </button>
+        <button class="btn btn-rounded" id="second" style="background-color: rgb(60, 70, 179);"> 2 </button>
+        </div>
+    </div>
     <script src="argue.js"></script>
 </body>
 </html>

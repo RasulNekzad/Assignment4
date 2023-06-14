@@ -3,13 +3,14 @@
 }
 
 .btn{
-    margin-left: 50px;
-    width: 50%;
-    height: 50%;
+    margin: 50px;
+    width: 160px;
+    height: 160px;
     font-family:Georgia; 
     font-size: 40px;
     font-weight:600;
     color:rgb(238, 231, 231);
+    display:inline-block;
 }
 
 .centered{
@@ -20,6 +21,7 @@
 }
 
 .large-elt{
+    border-radius: 24px;
     width: 80%; 
     height:80%; 
     font-family:Georgia; 
@@ -27,5 +29,10 @@
     font-size:64px; 
     color:rgb(121, 26, 26); 
     background-color: rgb(100, 100, 100);
-    box-shadow:8px rgba(100, 100, 100, 0.326);
+    box-shadow:8px rgba(0, 0, 0);
+}
+
+.container{
+    text-align:center;
+    display: inline-block;
 }
