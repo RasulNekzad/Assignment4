@@ -42,12 +42,12 @@ form{
     font-size: 1.5em;
 }
 
-#status{
+h1{
     text-align: center;
     font-size: 2.5em;
 }
 
-input[type=text],input[type=email],input[type=password],select{
+input[type=text],input[type=email],input[type=password],input[type=number],select{
   width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
